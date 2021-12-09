@@ -3,6 +3,8 @@
     --primary-color: 
     #0D9488;
     --warm-gray:#78716C;
+    --off-white:#9CA3AF;
+    
 }
 hr{
     margin:2rem 0rem;
@@ -10,6 +12,7 @@ hr{
 body{
     font-family: 'Noto Sans', 
     sans-serif;
+    margin: 0px;
 }
 /* Container class */
 .container{
@@ -74,9 +77,35 @@ body{
      margin:auto;
  }
  .hero .hero-heading{
+     text-align: center;
      padding-top:1rem; 
      color:var(--warm-gray);
  }
  .hero .hero-heading .hero-inverted{
      color: var(--primary-color);
  }
+ /* Sections */
+ .section{
+    padding: 2rem;
+ }
+.section h1 {
+    text-align: center;
+}
+.ow{
+    background-color: var(--off-white); 
+}
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    padding:2rem 0rem;
+    text-align:center;
+    color:white;
+    border-top-right-radius: 1rem;
+}
+.footer .link{
+    color:white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+    /* Due to default browser settings  */
+}
