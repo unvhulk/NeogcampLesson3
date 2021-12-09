@@ -1,33 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blogs</title>
-    <link href="styles.css" rel="stylesheet">
-</head>
-<body>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
     <nav class="navigation">
-        <div class="nav-brand">AADARSH BALAK</div>
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-                <a class="link " href="/">home</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="projects.html">projects</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link link-active" href="blogs.html">blogs</a>
-            </li>
-
-        </ul>
+      <div class="nav-brand">AADARSH BALAK</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="/">home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="projects.html">projects</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active" href="blogs.html">blogs</a>
+        </li>
+      </ul>
     </nav>
     <header class="hero">
-        <img class="hero-img" src="images/hero.svg" />
-        <h1 class="hero-heading">This is my  <span class="hero-inverted">Blog</span></h1>
-        <!-- span is an inline element like div -->
+      <img class="hero-img" src="images/blog.svg" />
+      <h1 class="hero-heading">
+        This is my <span class="hero-inverted">Blog</span>
+      </h1>
     </header>
-    
-</body>
+    <ol reversed>
+      <li class="list-non-bullet">
+        <div class="container container-center card">
+          <h1>Blog 1</h1>
+          <small>December,2021</small>
+          <p>This is a dummy blog.</p>
+          <a class="link link-primary" href="#">View Blog</a>
+        </div>
+      </li>
+      <li class="list-non-bullet">
+        <div class="container container-center card">
+          <h1>Blog 2</h1>
+          <small>December,2021</small>
+          <p>This is a dummy blog.</p>
+          <a class="link link-primary" href="#">View Blog</a>
+        </div>
+      </li>
+    </ol>
+  </body>
 </html>
