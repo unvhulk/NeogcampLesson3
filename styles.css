@@ -125,3 +125,8 @@ body {
   padding-inline-start: 0px;
   /* Due to default browser settings  */
 }
+ol h1 {
+  text-align: center;
+  padding-top: 1rem;
+  color: var(--primary-color);
+}
