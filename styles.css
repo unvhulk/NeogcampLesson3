@@ -14,6 +14,10 @@ body{
     sans-serif;
     margin: 0px;
 }
+/* spaces */
+.margin-md{
+    margin:2rem;
+}
 /* Container class */
 .container{
     padding: 0rem 1rem; 
@@ -28,6 +32,9 @@ body{
     text-decoration: none;
     padding: 0.5rem 1rem;
     /* margin:1rem 0rem; */
+}
+.link-active{
+    font-weight:bold;
 }
 .link-primary{
     background-color:var(--primary-color);
