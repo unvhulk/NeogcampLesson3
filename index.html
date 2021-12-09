@@ -6,28 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Componet Library</title>
-</head>
+    <!--CSS way 1:Style tag 
+         <style>
+        body{
+            color:red;
+        }
+    </style> -->
+    <!-- Third way CSS : ext Link -->
+    <link href="styles.css" rel="stylesheet">
+</head> 
 
 <body>
-    <h1>Welcome to Uday Narayan Vishwakarma's component library</h1>
-    <p>I am attending neoGcamp and I want to make a library which would make all my projects look good and consistent.
+    <!-- Second way of CSS <h1 style="color:red">Welcome to Uday Narayan Vishwakarma's component library</h1> -->
+    <h1 id="lib-header">Welcome to Uday Narayan Vishwakarma's component library</h1>
+    <p class="para">I am attending neoGcamp and I want to make a library which would make all my projects look good and consistent.
     </p>
     <hr>
     <h2>@typography</h2>
     <h1>Biggest</h1>
     <h2>2nd Biggest</h2>
-    <p>I present to the Normal text. This is free flowing and will wrap at the end like a paragraph.</p>
-    <small>Relatively small</small>
+    <p class="para">I present to the Normal text. This is free flowing and will wrap at the end like a paragraph.</p>
+    <small class="para">Relatively small</small>
 
     <hr>
 
     <h2>@container</h2>
 
     <h3>fluid container</h3>
-    <div>This is a fluid container and it goes to the end of the page.</div>
+    <div class="para">This is a fluid container and it goes to the end of the page.</div>
 
     <h3>center container</h3>
-    <div>This is a center container and it will go till specified width.</div>
+    <div class="para">This is a center container and it will go till specified width.</div>
 
     <hr>
 
