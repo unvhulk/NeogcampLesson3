@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componet Library</title>
+    <!--CSS way 1:Style tag 
+         <style>
+        body{
+            color:red;
+        }
+    </style> -->
+    <!-- Third way CSS : ext Link -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Second way of CSS <h1 style="color:red">Welcome to Uday Narayan Vishwakarma's component library</h1> -->
+    <h1>Welcome to Uday Narayan Vishwakarma's component library</h1>
+    <p>I am attending neoGcamp and I want to make a library which would make all my projects look good and consistent.
+    </p>
+    <hr>
+    <h2>@typography</h2>
+    <h1>Biggest</h1>
+    <h2>2nd Biggest</h2>
+    <p >I present to the Normal text. This is free flowing and will wrap at the end like a paragraph.</p>
+    <p>This paragraph will have <strong>Bold Text.</strong></p>
+    <small >Relatively small</small>
+
+    <hr>
+
+    <h2>@container</h2>
+
+    <h3>fluid container</h3>
+    <div class=" container container-fluid">This is a fluid container and it goes to the end of the page.</div>
+
+        <h3>center container</h3>
+        <div class="container container-center">This is a center container and it will go till specified width.</div>
+
+        <hr>
+
+        <h2>@Links</h2>
+        <a class="link link-primary" href=" https://google.com">Primary Link</a>
+        <a class="link link-secondary" href="https://google.co.in">Secondary Link</a>
+        <!-- Inline element is that which takes space require and Block element takes it all -->
+
+        <hr>
+
+        <h2>@list</h2>
+
+        <h3>unordered list</h3>
+        <p>This list will not have bullets.</p>
+        <ul class="list-non-bullet">
+            <!-- ul for un ordered list -->
+            <li>Item1</li>
+            <li>Item2</li>
+            <li>Item3</li>
+        </ul>
+
+        <h3>unordered inline list</h3>
+        <ul class="list-non-bullet">
+            <!-- ul for unordered list -->
+            <li class="list-item-inline">Inline Item1</li>
+            <li class="list-item-inline">Inline Item2</li>
+            <li class="list-item-inline">Inline Item3</li>
+        </ul>
+
+        <h3>reverse ordered list</h3>
+        <ol reversed>
+            <li>milk</li>
+            <li>eggs</li>
+            <li>bread</li>
+        </ol>
+
+        <hr>
+
+        <h2>@nav</h2>
+        <nav class="navigation">
+            <div class="nav-brand">I am Brand</div>
+            <ul class="list-non-bullet nav-pills">
+                <li class="list-item-inline">
+                    <a class="link link-active" href="/">home</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="/">projects</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="/">blogs</a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <hr>
+
+        <h2>@Header</h2>
+        <header class="hero">
+            <img class="hero-img" src="images/hero.svg" />
+            <h1 class="hero-heading">adarsh baalak the <span class="hero-inverted">web developer</span></h1>
+            <!-- span is an inline element like div -->
+        </header>
+
+        <hr>
+
+        <h2>@section</h2>
+        <section class="section">
+            <div class="container container-center">
+                <h1>white section</h1>
+                <p>This will have white background.</p>
+            </div>
+        </section>
+
+        <section class="section ow">
+            <div class="container container-center">
+                <h1>off white section</h1>
+                <p>This will have gray background.</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <h2>@footer</h2>
+        <footer class="footer">
+            <!-- dont use h1 h2 etc in footer -->
+            <div class="footer-header">Some small heading inside footer</div>
+            <ul class="social-links list-non-bullet">
+                <li class="list-item-inline"><a class="link " href="/">socialOne</a></li>
+                <li class="list-item-inline"><a class="link " href="/">socialTwo</a></li>
+                <li class="list-item-inline"><a class="link " href="/">socialThree</a></li>
+            </ul>
+        </footer>
+
+</body>
+
+</html>
